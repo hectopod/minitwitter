@@ -1,6 +1,6 @@
 miniTwitter is a JQuery Plugin which put Twitter on your website. Website: [JQuery and WordPress twitter plugin](http://minitwitter.webdevdesigner.com/ "Put the twitter feed on your website or your WordPress blog").
 
-The plugin as been developed and designed by WebDevDesigner: [Web Développeur Designer](http://webdevdesigner.com/ "Création de sites Internet : développement et design") and sponsorised by [Consumimus](http://consumimus.fr/ "Avis consommateur et Comparateur de prix").
+The plugin as been developed and designed by WebDevDesigner: [Web Développeur Designer](http://webdevdesigner.com/ "Création de sites Internet : développement et design") and sponsorised by [Consumimus](http://consumimus.fr/ "Avis consommateur et Comparateur de prix") and [So Drunk](http://sodrunk.org/ "Funny drunk stories").
 
 A lot of options can be modified like the username, the list, the query, the limit...
 
