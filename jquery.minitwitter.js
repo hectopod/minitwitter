@@ -143,6 +143,8 @@
 		function display ( widget ) {
 			fetch().done(function( res ) {
 				//o.tweetId = results[0].id;
+				if(res.hasOwnProperty('error')) return;
+
 				tweets = $.map( res.results || res , function( obj, i) {
 					return fetchTweetsData ( obj );
 				});
