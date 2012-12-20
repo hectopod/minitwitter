@@ -119,7 +119,8 @@
 	      	obj.realName = obj.retweet ? object.retweeted_status.user.name : (object.from_user_name || object.user.name);
 	      	obj.userUrl = obj.retweet ? "http://twitter.com/"+object.retweeted_status.user.screen_name : "http://twitter.com/"+obj.screenName;
 		    obj.tweetTime = createdAt(object.created_at);
-		    obj.image = obj.retweet ? object.retweeted_status.user.profile_image_url : object.profile_image_url || object.user.profile_image_url ;
+		    var profile_image_url_parameter_name = ('https:' == document.location.protocol ? 'profile_image_url_https' : 'profile_image_url');
+		    obj.image = obj.retweet ? object.retweeted_status.user[profile_image_url_parameter_name] : object.profile_image_url || object.user[profile_image_url_parameter_name] ;
 			obj.replyUrl = "http://twitter.com/intent/tweet?in_reply_to="+o.tweetId;		    
 		    obj.retweetUrl = "http://twitter.com/intent/retweet?tweet_id="+o.tweetId;
 		    obj.favoriteUrl = "http://twitter.com/intent/favorite?tweet_id="+o.tweetId;
