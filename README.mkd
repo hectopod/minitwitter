@@ -1,4 +1,4 @@
-miniTwitter is a JQuery Plugin which put Twitter on your website.jquery plugin depreacted, see website poru wordpress plugin. Website: [JQuery and WordPress twitter plugin](http://minitwitter.webdevdesigner.com/ "Put the twitter feed on your website or your WordPress blog").
+miniTwitter is a JQuery Plugin which put Twitter on your website. Jquery plugin deprecated, see website for the wordpress plugin. Website: [JQuery and WordPress twitter plugin](http://minitwitter.webdevdesigner.com/ "Put the twitter feed on your website or your WordPress blog").
 
 The plugin as been developed and designed by WebDevDesigner: [Web Développeur Designer](http://webdevdesigner.com/ "Création de sites Internet : développement et design") and sponsorised by [A La Mode](http://www.alamode.me/ "Social Fashion Network"), [Consumimus](http://consumimus.fr/ "Avis consommateur et Comparateur de prix") and [So Drunk](http://sodrunk.org/ "Funny drunk stories").
 
