@@ -143,9 +143,14 @@
 		function display ( widget ) {
 			fetch().done(function( res ) {
 				//o.tweetId = results[0].id;
+				if(res.hasOwnProperty('error')) return;
+
 				tweets = $.map( res.results || res , function( obj, i) {
 					return fetchTweetsData ( obj );
 				});
+
+				if(tweets.length === 0) return;
+
 				for(var i=0; i<tweets.length; i++) {
 					$(widget).append(tweets[i].avatar+tweets[i].header+tweets[i].textTweet+tweets[i].footer);
 				}
